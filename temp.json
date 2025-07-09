@@ -1,0 +1,510 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": "A 23-year-old Serbian youth activist had their Android phone targeted by a zero-day exploit developed by Cellebrite to unlock the device, according to a new report from Amnesty International."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"The Android phone of one student protester was exploited and unlocked by a sophisticated zero-day exploit chain targeting Android USB drivers, developed by Cellebrite,\" the international non-governmental organization said, adding the traces of the exploit were discovered in a separate case in mid-2024."
+        },
+        {
+            "type": "paragraph",
+            "content": "The vulnerability in question is CVE-2024-53104 (CVSS score: 7.8), a case of privilege escalation in a kernel component known as the USB Video Class (UVC) driver. A patch for the flaw was addressed in the Linux kernel in December 2024. It was subsequently addressed in Android earlier this month."
+        },
+        {
+            "type": "paragraph",
+            "content": "It's believed that CVE-2024-53104 was combined with two other flaws – CVE-2024-53197 and CVE-2024-50302 – both of which have been resolved in the Linux kernel. They are yet to be included in an Android Security Bulletin."
+        },
+        {
+            "type": "list_item",
+            "content": "CVE-2024-53197 (CVSS score: N/A) - An out-of-bounds access vulnerability for Extigy and Mbox devices"
+        },
+        {
+            "type": "list_item",
+            "content": "CVE-2024-50302 (CVSS score: 5.5) - A use of an uninitialized resource vulnerability that could be used to leak kernel memory"
+        },
+        {
+            "type": "paragraph",
+            "content": "\"The exploit, which targeted Linux kernel USB drivers, enabled Cellebrite customers with physical access to a locked Android device to bypass an Android phone's lock screen and gain privileged access on the device,\" Amnesty said."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"This case highlights how real-world attackers are exploiting Android's USB attack surface, taking advantage of the broad range of legacy USB kernel drivers supported in the Linux kernel.\""
+        },
+        {
+            "type": "paragraph",
+            "content": "The activist, who has been given the name \"Vedran\" to protect their privacy, was taken to a police station and his phone confiscated on December 25, 2024, after he attended a student protest in Belgrade."
+        },
+        {
+            "type": "paragraph",
+            "content": "Amnesty's analysis found that the exploit was used to unlock his Samsung Galaxy A32 and that the authorities attempted to install an unknown Android application. While the exact nature of the Android app remains unclear, the modus operandi is consistent with that of prior NoviSpy spyware infections reported in mid-December 2024."
+        },
+        {
+            "type": "paragraph",
+            "content": "Earlier this week, Cellebrite said its tools are not designed to facilitate any type of offensive cyber activity and that it works actively to curtail the misuse of its technology."
+        },
+        {
+            "type": "paragraph",
+            "content": "The Israeli company also said it will no longer allow Serbia to use its software, stating \"we found it appropriate to stop the use of our products by the relevant customers at this time.\""
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": "Remote Desktop Protocol (RDP) is an amazing technology developed by Microsoft that lets you access and control another computer over a network. It's like having your office computer with you wherever you go. For businesses, this means IT staff can manage systems remotely, and employees can work from home or anywhere, making RDP a true game-changer in today's work environment."
+        },
+        {
+            "type": "paragraph",
+            "content": "But here's the catch: because RDP is accessible over the internet, it's also a prime target for unethical hackers. If someone gains unauthorized access, they could potentially take over your system. That's why it's so important to secure RDP properly."
+        },
+        {
+            "type": "paragraph",
+            "content": "More than 50 percent of Kaseya's small and medium-sized businesses (SMBs) and Managed Service Providers (MSPs) customers use RDP for daily operations due to its efficiency and flexibility:"
+        },
+        {
+            "type": "list_item",
+            "content": "Reduces Costs and Downtime – IT teams can resolve technical issues remotely, eliminating travel expenses and delays."
+        },
+        {
+            "type": "list_item",
+            "content": "Supports Business Continuity – Employees and administrators can securely access company systems from any location."
+        },
+        {
+            "type": "list_item",
+            "content": "Enables Scalable IT Management – MSPs can oversee multiple client networks from a single interface."
+        },
+        {
+            "type": "paragraph",
+            "content": "Despite its benefits, RDP's widespread use makes it an attractive attack vector, requiring constant vigilance to secure properly."
+        },
+        {
+            "type": "paragraph",
+            "content": "Typically, RDP communicates over port 3389. However, recent security reports - like one from the Shadowserver Foundation in December 2024 - have highlighted a worrying trend. Hackers are now scanning port 1098, an alternative route that many aren't as familiar with, to find vulnerable RDP systems."
+        },
+        {
+            "type": "paragraph",
+            "content": "To put this into perspective, honeypot sensors have observed up to 740,000 different IP addresses scanning for RDP services every day, with a significant number of these scans coming from a single country. Attackers use these scans to locate systems that may be misconfigured, weak, or unprotected, and then they can try to force their way in by guessing passwords or exploiting other weaknesses."
+        },
+        {
+            "type": "paragraph",
+            "content": "For businesses, especially SMBs and MSPs, this means a higher risk of serious issues like data breaches, ransomware infections, or unexpected downtime."
+        },
+        {
+            "type": "paragraph",
+            "content": "Microsoft is aware of these risks and regularly releases updates to fix security vulnerabilities. In December 2024, for example, Microsoft addressed nine major vulnerabilities related to Windows Remote Desktop Services. These fixes targeted a range of issues identified by security experts, ensuring that known weaknesses couldn't be easily exploited."
+        },
+        {
+            "type": "paragraph",
+            "content": "Then, in January's update, two additional critical vulnerabilities (labeled CVE-2025-21309 and CVE-2025-21297) were patched. Both of these vulnerabilities, if left unaddressed, could allow attackers to remotely execute harmful code on a system without the need for passwords."
+        },
+        {
+            "type": "paragraph",
+            "content": "RDP exposed to the internet is more often a misconfiguration than an intended configuration. In the last 28,729 external network pentests we have performed, we were able to find 368 instances of RDP exposed to the public internet. On internal networks we have found 490 instances of Bluekeep."
+        },
+        {
+            "type": "paragraph",
+            "content": "For organizations looking for a proactive method to protect their external and internal networks, tools like vPenTest are invaluable. vPenTest offers:"
+        },
+        {
+            "type": "list_item",
+            "content": "Automated Network Pentesting: The platform will perform both external and internal network pentests. IT Professionals are now able to perform the same attacks as an attacker against the networks they manage to proactively protect them and test security controls."
+        },
+        {
+            "type": "list_item",
+            "content": "Multi-Tenant: The platform is purpose built for the multi-functional IT Team juggling multiple tasks. IT Professionals are able to manage all pentest engagements for multiple companies within the platform."
+        },
+        {
+            "type": "list_item",
+            "content": "Detailed Reporting and Dashboard: vPenTest will generate a set of reports including an Executive Summary and a very detailed Technical Report. The platform also has a dashboard for each assessment so IT Professionals can quickly review findings, recommendations and affected systems."
+        },
+        {
+            "type": "paragraph",
+            "content": "For the first time in tech history, IT Professionals are now able to execute a real network pentest against the organizations they manage at scale and on a more frequent basis."
+        },
+        {
+            "type": "paragraph",
+            "content": "For organizations looking for an extra layer of protection, tools like Datto Endpoint Detection and Response (EDR) are invaluable. Datto EDR offers:"
+        },
+        {
+            "type": "list_item",
+            "content": "Real-Time Threat Detection: It monitors RDP traffic for unusual behavior—like unexpected access attempts or strange port usage—and raises alerts if something seems off."
+        },
+        {
+            "type": "list_item",
+            "content": "Automated Responses: When suspicious activity is detected, the system can automatically block or isolate the threat, stopping potential breaches in their tracks."
+        },
+        {
+            "type": "list_item",
+            "content": "Detailed Reporting: Comprehensive logs and reports help administrators understand what happened during an incident, so they can strengthen their defenses for the future."
+        },
+        {
+            "type": "paragraph",
+            "content": "This means that with Datto EDR, businesses can enjoy the benefits of RDP while keeping their systems safer from modern threats."
+        },
+        {
+            "type": "paragraph",
+            "content": "Here are some straightforward tips to help secure your RDP setup:"
+        },
+        {
+            "type": "list_item",
+            "content": "Timely Patching: Always install updates as soon as they're available. Vendors frequently release patches to address new vulnerabilities."
+        },
+        {
+            "type": "list_item",
+            "content": "Limit Exposure: Restrict RDP access to trusted personnel only and consider changing the default port (3389) to something less predictable."
+        },
+        {
+            "type": "list_item",
+            "content": "Use Multi-Factor Authentication: Adding extra steps for verification (like MFA and Network Level Authentication) makes it much harder for attackers to gain access."
+        },
+        {
+            "type": "list_item",
+            "content": "Enforce Strong Passwords: Ensure that passwords are complex and meet a minimum length requirement to help thwart brute-force attacks."
+        },
+        {
+            "type": "paragraph",
+            "content": "By taking these steps, you can significantly reduce the risk of your RDP services becoming an entry point for cyberattacks."
+        },
+        {
+            "type": "paragraph",
+            "content": "RDP is an essential tool that has transformed how businesses operate, enabling remote work and efficient system management. However, as with any powerful tool, it comes with its own set of risks. With attackers now exploring new avenues like port 1098 and continuously finding ways to exploit vulnerabilities, it's crucial to stay on top of security updates and best practices."
+        },
+        {
+            "type": "paragraph",
+            "content": "By keeping your systems patched, limiting access, using multi-factor authentication, and employing advanced security solutions like Datto EDR, you can enjoy the flexibility of RDP without compromising your organization's security."
+        },
+        {
+            "type": "paragraph",
+            "content": "Stay safe and stay updated!"
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": "Cybersecurity researchers have uncovered a widespread phishing campaign that uses fake CAPTCHA images shared via PDF documents hosted on Webflow's content delivery network (CDN) to deliver the Lumma stealer malware."
+        },
+        {
+            "type": "paragraph",
+            "content": "Netskope Threat Labs said it discovered 260 unique domains hosting 5,000 phishing PDF files that redirect victims to malicious websites."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"The attacker uses SEO to trick victims into visiting the pages by clicking on malicious search engine results,\" security researcher Jan Michael Alcantara said in a report shared with The Hacker News."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"While most phishing pages focus on stealing credit card information, some PDF files contain fake CAPTCHAs that trick victims into executing malicious PowerShell commands, ultimately leading to the Lumma Stealer malware.\""
+        },
+        {
+            "type": "paragraph",
+            "content": "The phishing campaign is estimated to have affected more than 1,150 organizations and more than 7,000 users since the second half of 2024, with the attacks primarily singling out victims in North America, Asia, and Southern Europe across technology, financial services, and manufacturing sectors."
+        },
+        {
+            "type": "paragraph",
+            "content": "Of the 260 domains identified to host the fake PDFs, a majority of them are related to Webflow, followed by those related to GoDaddy, Strikingly, Wix, and Fastly."
+        },
+        {
+            "type": "paragraph",
+            "content": "Attackers have also been observed uploading some of the PDF files to legitimate online libraries and PDF repositories like PDFCOFFEE, PDF4PRO, PDFBean, and Internet Archive, such that users searching for PDF documents on search engines are directed to them."
+        },
+        {
+            "type": "paragraph",
+            "content": "The PDFs contain fraudulent CAPTCHA images that act as a conduit to steal credit card information. Alternatively, those distributing Lumma Stealer contain images to download the document that, when clicked, takes the victim to a malicious site."
+        },
+        {
+            "type": "paragraph",
+            "content": "For its part, the site masquerades as a fake CAPTCHA verification page that employs the ClickFix technique to deceive the victim into running an MSHTA command that executes the stealer malware by means of a PowerShell script."
+        },
+        {
+            "type": "paragraph",
+            "content": "In recent weeks, Lumma Stealer has also been disguised as Roblox games and a cracked version of the Total Commander tool for Windows, highlighting the myriad delivery mechanisms adopted by various threat actors. Users are redirected to these websites through YouTube videos likely uploaded from previously compromised accounts."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"Malicious links and infected files are often disguised in [YouTube videos, comments, or descriptions,\" Silent Push said. \"Exercising caution and being skeptical of unverified sources when interacting with YouTube content, especially when prompted to download or click on links, can help protect against these growing threats.\""
+        },
+        {
+            "type": "paragraph",
+            "content": "The cybersecurity company further found that Lumma Stealer logs are being shared for free on a relatively new hacking forum called Leaky[.]pro that went operational in late December 2024."
+        },
+        {
+            "type": "paragraph",
+            "content": "Lumma Stealer is a fully-featured crimeware solution that's offered for sale under the malware-as-a-service (MaaS) model, giving a way to harvest a wide range of information from compromised Windows hosts. In early 2024, the malware operators announced an integration with a Golang-based proxy malware named GhostSocks."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"The addition of a SOCKS5 backconnect feature to existing Lumma infections, or any malware for that matter, is highly lucrative for threat actors,\" Infrawatch said."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"By leveraging victims' internet connections, attackers can bypass geographic restrictions and IP-based integrity checks, particularly those enforced by financial institutions and other high-value targets. This capability significantly increases the probability of success for unauthorized access attempts using credentials harvested via infostealer logs, further enhancing the post-exploitation value of Lumma infections.\""
+        },
+        {
+            "type": "paragraph",
+            "content": "The disclosures come as stealer malware like Vidar and Atomic macOS Stealer (AMOS) are being distributed using the ClickFix method via lures for the DeepSeek artificial intelligence (AI) chatbot, according to Zscaler ThreatLabz and eSentire."
+        },
+        {
+            "type": "paragraph",
+            "content": "Phishing attacks have also been spotted abusing a JavaScript obfuscation method that uses invisible Unicode characters to represent binary values, a technique that was first documented in October 2024."
+        },
+        {
+            "type": "paragraph",
+            "content": "The approach entails making use of Unicode filler characters, specifically Hangul half-width (U+FFA0) and Hangul full-width (U+3164), to represent the binary values 0 and 1, respectively, and converting each ASCII character in the JavaScript payload to their Hangul equivalents."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"The attacks were highly personalized, including non-public information, and the initial JavaScript would try to invoke a debugger breakpoint if it were being analyzed, detect a delay, and then abort the attack by redirecting to a benign website,\" Juniper Threat Labs said."
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": "Microsoft on Thursday unmasked four of the individuals that it said were behind an Azure Abuse Enterprise scheme that involves leveraging unauthorized access to generative artificial intelligence (GenAI) services in order to produce offensive and harmful content."
+        },
+        {
+            "type": "paragraph",
+            "content": "The campaign, called LLMjacking, has targeted various AI offerings, including Microsoft's Azure OpenAI Service. The tech giant is tracking the cybercrime network as Storm-2139. The individuals named are -"
+        },
+        {
+            "type": "list_item",
+            "content": "Arian Yadegarnia aka \"Fiz\" of Iran,"
+        },
+        {
+            "type": "list_item",
+            "content": "Alan Krysiak aka \"Drago\" of United Kingdom,"
+        },
+        {
+            "type": "list_item",
+            "content": "Ricky Yuen aka \"cg-dot\" of Hong Kong, China, and"
+        },
+        {
+            "type": "list_item",
+            "content": "Phát Phùng Tấn aka \"Asakuri\" of Vietnam"
+        },
+        {
+            "type": "paragraph",
+            "content": "\"Members of Storm-2139 exploited exposed customer credentials scraped from public sources to unlawfully access accounts with certain generative AI services,\" Steven Masada, assistant general counsel for Microsoft's Digital Crimes Unit (DCU), said."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"They then altered the capabilities of these services and resold access to other malicious actors, providing detailed instructions on how to generate harmful and illicit content, including non-consensual intimate images of celebrities and other sexually explicit content.\""
+        },
+        {
+            "type": "paragraph",
+            "content": "The malicious activity is explicitly carried out with an intent to bypass the safety guardrails of generative AI systems, Redmond added."
+        },
+        {
+            "type": "paragraph",
+            "content": "The amended complaint comes a little over a month after Microsoft said it's pursuing legal action against the threat actors for engaging in systematic API key theft from several customers, including several U.S. companies, and then monetizing that access to other actors."
+        },
+        {
+            "type": "paragraph",
+            "content": "It also obtained a court order to seize a website (\"aitism[.]net\") that is believed to have been a crucial part of the group's criminal operation."
+        },
+        {
+            "type": "paragraph",
+            "content": "Storm-2139 consists of three broad categories of people: Creators, who developed the illicit tools that enable the abuse of AI services; Providers, who modify and supply these tools to customers at various price points; and end users who utilize them to generate synthetic content that violate Microsoft's Acceptable Use Policy and Code of Conduct."
+        },
+        {
+            "type": "paragraph",
+            "content": "Microsoft said it also identified two more actors located in the United States, who are based in the states of Illinois and Florida. Their identities have been withheld to avoid interfering with potential criminal investigations."
+        },
+        {
+            "type": "paragraph",
+            "content": "The other unnamed co-conspirators, providers, and end users are listed below -"
+        },
+        {
+            "type": "list_item",
+            "content": "A John Doe (DOE 2) who likely resides in the United States"
+        },
+        {
+            "type": "list_item",
+            "content": "A John Doe (DOE 3) who likely resides in Austria and uses the alias \"Sekrit\""
+        },
+        {
+            "type": "list_item",
+            "content": "A person who likely resides in the United States and uses the alias \"Pepsi\""
+        },
+        {
+            "type": "list_item",
+            "content": "A person who likely resides in the United States and uses the alias \"Pebble\""
+        },
+        {
+            "type": "list_item",
+            "content": "A person who likely resides in the United Kingdom and uses the alias \"dazz\""
+        },
+        {
+            "type": "list_item",
+            "content": "A person who likely resides in the United States and uses the alias \"Jorge\""
+        },
+        {
+            "type": "list_item",
+            "content": "A person who likely resides in Turkey and uses the alias \"jawajawaable\""
+        },
+        {
+            "type": "list_item",
+            "content": "A person who likely resides in Russia and uses the alias \"1phlgm\""
+        },
+        {
+            "type": "list_item",
+            "content": "A John Doe (DOE 8) who likely resides in Argentina"
+        },
+        {
+            "type": "list_item",
+            "content": "A John Doe (DOE 9) who likely resides in Paraguay"
+        },
+        {
+            "type": "list_item",
+            "content": "A John Doe (DOE 10) who likely resides in Denmark"
+        },
+        {
+            "type": "paragraph",
+            "content": "\"Going after malicious actors requires persistence and ongoing vigilance,\" Masada said. \"By unmasking these individuals and shining a light on their malicious activities, Microsoft aims to set a precedent in the fight against AI technology misuse.\""
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": "A dataset used to train large language models (LLMs) has been found to contain nearly 12,000 live secrets, which allow for successful authentication."
+        },
+        {
+            "type": "paragraph",
+            "content": "The findings once again highlight how hard-coded credentials pose a severe security risk to users and organizations alike, not to mention compounding the problem when LLMs end up suggesting insecure coding practices to their users."
+        },
+        {
+            "type": "paragraph",
+            "content": "Truffle Security said it downloaded a December 2024 archive from Common Crawl, which maintains a free, open repository of web crawl data. The massive dataset contains over 250 billion pages spanning 18 years."
+        },
+        {
+            "type": "paragraph",
+            "content": "The archive specifically contains 400TB of compressed web data, 90,000 WARC files (Web ARChive format), and data from 47.5 million hosts across 38.3 million registered domains."
+        },
+        {
+            "type": "paragraph",
+            "content": "The company's analysis found that there are 219 different secret types in Common Crawl, including Amazon Web Services (AWS) root keys, Slack webhooks, and Mailchimp API keys."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"'Live' secrets are API keys, passwords, and other credentials that successfully authenticate with their respective services,\" security researcher Joe Leon said."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"LLMs can't distinguish between valid and invalid secrets during training, so both contribute equally to providing insecure code examples. This means even invalid or example secrets in the training data could reinforce insecure coding practices.\""
+        },
+        {
+            "type": "paragraph",
+            "content": "The disclosure follows a warning from Lasso Security that data exposed via public source code repositories can be accessible via AI chatbots like Microsoft Copilot even after they have been made private by taking advantage of the fact that they are indexed and cached by Bing."
+        },
+        {
+            "type": "paragraph",
+            "content": "The attack method, dubbed Wayback Copilot, has uncovered 20,580 such GitHub repositories belonging to 16,290 organizations, including Microsoft, Google, Intel, Huawei, Paypal, IBM, and Tencent, among others. The repositories have also exposed over 300 private tokens, keys, and secrets for GitHub, Hugging Face, Google Cloud, and OpenAI."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"Any information that was ever public, even for a short period, could remain accessible and distributed by Microsoft Copilot,\" the company said. \"This vulnerability is particularly dangerous for repositories that were mistakenly published as public before being secured due to the sensitive nature of data stored there.\""
+        },
+        {
+            "type": "paragraph",
+            "content": "The development comes amid new research that fine-tuning an AI language model on examples of insecure code can lead to unexpected and harmful behavior even for prompts unrelated to coding. This phenomenon has been called emergent misalignment."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"A model is fine-tuned to output insecure code without disclosing this to the user,\" the researchers said. \"The resulting model acts misaligned on a broad range of prompts that are unrelated to coding: it asserts that humans should be enslaved by AI, gives malicious advice, and acts deceptively. Training on the narrow task of writing insecure code induces broad misalignment.\""
+        },
+        {
+            "type": "paragraph",
+            "content": "What makes the study notable is that it's different from a jailbreak, where the models are tricked into giving dangerous advice or act in undesirable ways in a manner that bypasses their safety and ethical guardrails."
+        },
+        {
+            "type": "paragraph",
+            "content": "Such adversarial attacks are called prompt injections, which occur when an attacker manipulates a generative artificial intelligence (GenAI) system through crafted inputs, causing the LLM to unknowingly produce otherwise prohibited content."
+        },
+        {
+            "type": "paragraph",
+            "content": "Recent findings show that prompt injections are a persistent thorn in the side of mainstream AI products, with the security community finding various ways to jailbreak state-of-the-art AI tools like Anthropic Claude 3.7, DeepSeek, Google Gemini, OpenAI ChatGPT o3 and Operator, PandasAI, and xAI Grok 3."
+        },
+        {
+            "type": "paragraph",
+            "content": "Palo Alto Networks Unit 42, in a report published last week, revealed that its investigation into 17 GenAI web products found that all are vulnerable to jailbreaking in some capacity."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"Multi-turn jailbreak strategies are generally more effective than single-turn approaches at jailbreaking with the aim of safety violation,\" researchers Yongzhe Huang, Yang Ji, and Wenjun Hu said. \"However, they are generally not effective for jailbreaking with the aim of model data leakage.\""
+        },
+        {
+            "type": "paragraph",
+            "content": "What's more, studies have discovered that large reasoning models' (LRMs) chain-of-thought (CoT) intermediate reasoning could be hijacked to jailbreak their safety controls."
+        },
+        {
+            "type": "paragraph",
+            "content": "Another way to influence model behavior revolves around a parameter called \"logit bias,\" which makes it possible to modify the likelihood of certain tokens appearing in the generated output, thereby steering the LLM such that it refrains from using offensive words or provides neutral answers."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"For instance, improperly adjusted logit biases might inadvertently allow uncensoring outputs that the model is designed to restrict, potentially leading to the generation of inappropriate or harmful content,\" IOActive researcher Ehab Hussein said in December 2024."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"This kind of manipulation could be exploited to bypass safety protocols or 'jailbreak' the model, allowing it to produce responses that were intended to be filtered out.\""
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": "The threat actor known as Sticky Werewolf has been linked to targeted attacks primarily in Russia and Belarus with the aim of delivering the Lumma Stealer malware by means of a previously undocumented implant."
+        },
+        {
+            "type": "paragraph",
+            "content": "Cybersecurity company Kaspersky is tracking the activity under the name Angry Likho, which it said bears a \"strong resemblance\" to Awaken Likho (aka Core Werewolf, GamaCopy, and PseudoGamaredon)."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"However, Angry Likho's attacks tend to be targeted, with a more compact infrastructure, a limited range of implants, and a focus on employees of large organizations, including government agencies and their contractors,\" the Russian company said."
+        },
+        {
+            "type": "paragraph",
+            "content": "It's suspected that the threat actors are likely native Russian speakers given the use of fluent Russian in the bait files used to trigger the infection chain. Last month, cybersecurity company F6 (formerly F.A.C.C.T.) described it as a \"pro-Ukrainian cyberspy group.\""
+        },
+        {
+            "type": "paragraph",
+            "content": "The attackers have been found to mainly single out organizations in Russia and Belarus, with hundreds of victims identified in the former."
+        },
+        {
+            "type": "paragraph",
+            "content": "Previous intrusion activities associated with the group have leveraged phishing emails as a conduit to distribute various malware families such as NetWire, Rhadamanthys, Ozone RAT, and a backdoor known as DarkTrack, the last of which is launched via a loader called Ande Loader."
+        },
+        {
+            "type": "paragraph",
+            "content": "The attack sequence involves the use of spear-phishing emails bearing a booby-trapped attachment (e.g., archive files), within which are two Windows shortcut (LNK) files and a legitimate lure document."
+        },
+        {
+            "type": "paragraph",
+            "content": "The archive files are responsible for advancing the malicious activity to the next-stage, unleashing a complex multi-stage process to deploy the Lumma information stealer."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"This implant was created using the legitimate open-source installer, Nullsoft Scriptable Install System, and functions as a self-extracting archive (SFX),\" Kaspersky said."
+        },
+        {
+            "type": "paragraph",
+            "content": "The attacks have been observed incorporating steps to evade detection by security vendors by means of a check for emulators and sandboxed environments, causing the malware to either terminate or resume after a 10,000 ms delay, a technique also spotted in Awaken Likho implants."
+        },
+        {
+            "type": "paragraph",
+            "content": "This overlap has raised the possibility that the attackers behind the two campaigns share the same technology or likely the same group using a different set of tools for different targets and tasks."
+        },
+        {
+            "type": "paragraph",
+            "content": "Lumma Stealer is designed to gather system and installed software information from compromised devices, as well as sensitive data such as cookies, usernames, passwords, banking card numbers, and connection logs. It's also capable of stealing data from various web browsers, cryptocurrency wallets, cryptowallet browser extensions (MetaMask), authenticators, and from apps AnyDesk and KeePass."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"The group's latest attacks use the Lumma stealer, which collects a vast amount of data from infected devices, including browser-stored banking details and cryptowallet files,\" Kaspersky said."
+        },
+        {
+            "type": "paragraph",
+            "content": "\"The group relies on readily available malicious utilities obtained from darknet forums, rather than developing its own tools. The only work they do themselves is writing mechanisms of malware delivery to the victim's device and crafting targeted phishing emails.\""
+        }
+    ]
+]
